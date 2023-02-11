@@ -5,6 +5,7 @@ body {
 
 header {
  color: white;
+ font-style: italic;
  text-align: center;
 }
 
@@ -29,4 +30,21 @@ footer {
     color: white;
      text-align: center;
      font-style: italic;
+}
+
+@media (min-width: 300px) {
+    section {
+       width: 220px;
+    }
+    #imagem {
+        width: 220px;
+    }
+
+    div {
+        text-align: center;
+        padding: 3px;
+
+    }
+
+    
 }
